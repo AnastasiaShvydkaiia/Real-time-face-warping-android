@@ -44,11 +44,11 @@ Three warping algorithms were tested:
 
 Table below summarizes the key characteristics of the three warping algorithms implemented in this project:
 
-|Algorithm|	Mathematical Basis|	Scope|	Representation|	Time Complexity|	Space Complexity|
-|---|---|---|---|---|---|
-IDW|	Distance-weighted interpolation (Shepard, 1968)|	Global|	Control Point|	O(W·H·N)|	O(W·H)|
-MLS|	Energy minimization with affine/ similarity/ rigid constraints (Schaefer et al., 2006)|	Local|	Control Point|	O(W·H·N)|	O(W·H)|
-PAT|	Delaunay triangulation + per-triangle affine transforms (Beier & Neely, 1992)|	Local|	Mesh|	O(W·H)|	O(W·H)|
+|Algorithm|	Mathematical Basis|	Scope|	Representation|	
+|---|---|---|---|
+IDW|	A Two-Dimensional Interpolation Function for Irregularly-Spaced Data (Shepard, 1968)|	Global|	Control Point|	
+MLS|	Image deformation using moving least squares (Schaefer et al., 2006)|	Local|	Control Point|	
+PAT|	Piecewise linear mapping functions for image registration (Goshtasby, 1986)|	Local|	Mesh|	
 
 
 Sad face filter implementation using different warping techniques: 
@@ -65,4 +65,5 @@ Sad face filter implementation using different warping techniques:
 |IDW        |5-10 |100-200 |10-15 |Slight global smoothing|
 
 <div align="center">
+
 Built with ❤️ by Anastasiia Shvydkaia
