@@ -63,8 +63,25 @@ Sad face filter implementation using different warping techniques:
 |MLS        |0-1  |6000+   |10-15  |None visible (similar to IDW)|
 |IDW        |5-10 |100-200 |10-15 |Slight global smoothing|
 
+## 🛠️ Running Application
+### Prerequisites 
+- Android Studio Otter (2024.1+)
+- Android SDK 34
+- Android device running Android 15 (API 34)
+- JDK 17 
+### Setup
+  1. Clone the repo or download the zip folder
+  ```git clone https://github.com/AnastasiaShvydkaiia/Real-time-face-warping-android.git```
+  2. Open Android Studio and select Open an existing project.
+  3. Wait for Gradle sync to complete.
+### Run
+  1. Connect a physical Android device.
+  3. Click Run.
+  4. On first launch, grant camera permissions when prompted.
+> [!NOTE]
+> To run the application on a physical device, enable Developer Options and USB debugging on the device.
 <div align="center">
-
 Built with ❤️ by Anastasiia Shvydkaia
+
 
 
