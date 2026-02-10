@@ -10,7 +10,7 @@
 |-------|------------|---------|
 | **UI** | Jetpack Compose | Modern declarative UI |
 | **Vision** | MediaPipe Face Landmarker | Facial feature detection |
-| **Warping** | IDW, PAT, MLS Algorithm | Smooth face transformation |
+| **Warping** | IDW, PAT, MLS Algorithmы | Smooth face transformation |
 
 > [!NOTE]
 > This is a CPU-only implementation, therefore the processing is slow. Future improvements could include GPU acceleration for faster performance.
@@ -51,9 +51,10 @@ MLS|	Image deformation using moving least squares (Schaefer et al., 2006)|	Local
 PAT|	Piecewise linear mapping functions for image registration (Goshtasby, 1986)|	Local|	Mesh|	
 
 
+### 🎭 Visual Comparison
+
 Sad face filter implementation using different warping techniques: 
 
-### 🎭 Visual Comparison
 ![Comparison](./img/warps.png)
 <sub>[Image source: By Unknown author sourced from https://www.freepik.com/]</sub>
 
@@ -67,3 +68,4 @@ Sad face filter implementation using different warping techniques:
 <div align="center">
 
 Built with ❤️ by Anastasiia Shvydkaia
+
