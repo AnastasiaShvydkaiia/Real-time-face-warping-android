@@ -32,7 +32,6 @@ The app applies facial filters by manipulating facial landmarks detected with Me
 <img src="./img/filters2.jpg" width="800"/>\
 <img src="./img/filters3.jpg" width="800"/>\
 <img src="./img/filters.jpg" width="800"/>\
-<sub>[Image source: By Unknown author sourced from https://www.freepik.com/]</sub>
 
 Three warping algorithms were tested:
 
@@ -56,7 +55,6 @@ PAT|	Piecewise linear mapping functions for image registration (Goshtasby, 1986)
 Sad face filter implementation using different warping techniques: 
 
 ![Comparison](./img/warps.png)
-<sub>[Image source: By Unknown author sourced from https://www.freepik.com/]</sub>
 
 ### ⚡ Performance metrics
 | Technique | FPS |ms/frame|Memory usage (MB)|Artifacts|
@@ -68,4 +66,5 @@ Sad face filter implementation using different warping techniques:
 <div align="center">
 
 Built with ❤️ by Anastasiia Shvydkaia
+
 
